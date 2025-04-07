@@ -49,7 +49,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Task1Test.cs" />
+    <Compile Include="Task2Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -59,6 +59,10 @@
     <ProjectReference Include="..\Task1\Task1.csproj">
       <Project>{328b96b4-8ea0-4c69-9171-55afde262f77}</Project>
       <Name>Task1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Task2\Task2.csproj">
+      <Project>{38efcc3f-704f-4cc3-a411-bf917c41ae04}</Project>
+      <Name>Task2</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

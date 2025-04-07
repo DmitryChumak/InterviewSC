@@ -6,7 +6,8 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine();
+            var triangle = new Triangle(16, 10, 10);
+            Console.WriteLine(triangle);
         }
     }
 }
